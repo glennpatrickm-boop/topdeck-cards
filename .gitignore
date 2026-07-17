@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# catalog build inputs (refetch via scripts/build-catalog.mjs)
+/scripts/raw/

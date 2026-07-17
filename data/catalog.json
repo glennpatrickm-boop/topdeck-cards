@@ -1,0 +1,937 @@
+[
+  {
+    "slug": "charizard-ex-151-199",
+    "name": "Charizard ex",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "199/165",
+    "rarity": "Special Illustration Rare",
+    "price": 129.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/199_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/199.png",
+    "meta": {
+      "type": "Fire",
+      "hp": "330",
+      "artist": "miki kudo"
+    }
+  },
+  {
+    "slug": "venusaur-ex-151-198",
+    "name": "Venusaur ex",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "198/165",
+    "rarity": "Special Illustration Rare",
+    "price": 129.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/198_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/198.png",
+    "meta": {
+      "type": "Grass",
+      "hp": "340",
+      "artist": "Yoriyuki Ikegami"
+    }
+  },
+  {
+    "slug": "blastoise-ex-151-200",
+    "name": "Blastoise ex",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "200/165",
+    "rarity": "Special Illustration Rare",
+    "price": 129.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/200_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/200.png",
+    "meta": {
+      "type": "Water",
+      "hp": "330",
+      "artist": "Mitsuhiro Arita"
+    }
+  },
+  {
+    "slug": "pikachu-151-173",
+    "name": "Pikachu",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "173/165",
+    "rarity": "Illustration Rare",
+    "price": 19.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/173_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/173.png",
+    "meta": {
+      "type": "Lightning",
+      "hp": "60",
+      "artist": "Hiroyuki Yamamoto"
+    }
+  },
+  {
+    "slug": "mew-ex-151-205",
+    "name": "Mew ex",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "205/165",
+    "rarity": "Hyper Rare",
+    "price": 49.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/205_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/205.png",
+    "meta": {
+      "type": "Psychic",
+      "hp": "180",
+      "artist": "aky CG Works"
+    }
+  },
+  {
+    "slug": "alakazam-ex-151-201",
+    "name": "Alakazam ex",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "201/165",
+    "rarity": "Special Illustration Rare",
+    "price": 129.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/201_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/201.png",
+    "meta": {
+      "type": "Psychic",
+      "hp": "310",
+      "artist": "Shinya Komatsu"
+    }
+  },
+  {
+    "slug": "zapdos-ex-151-202",
+    "name": "Zapdos ex",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "202/165",
+    "rarity": "Special Illustration Rare",
+    "price": 129.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/202_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/202.png",
+    "meta": {
+      "type": "Lightning",
+      "hp": "200",
+      "artist": "Shiburingaru"
+    }
+  },
+  {
+    "slug": "snorlax-151-143",
+    "name": "Snorlax",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "143/165",
+    "rarity": "Uncommon",
+    "price": 1.49,
+    "image": "https://images.pokemontcg.io/sv3pt5/143_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/143.png",
+    "meta": {
+      "type": "Colorless",
+      "hp": "150",
+      "artist": "HYOGONOSUKE"
+    }
+  },
+  {
+    "slug": "dragonite-151-149",
+    "name": "Dragonite",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "149/165",
+    "rarity": "Rare",
+    "price": 2.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/149_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/149.png",
+    "meta": {
+      "type": "Dragon",
+      "hp": "180",
+      "artist": "Sanosuke Sakuma"
+    }
+  },
+  {
+    "slug": "gyarados-151-130",
+    "name": "Gyarados",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "130/165",
+    "rarity": "Rare",
+    "price": 2.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/130_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/130.png",
+    "meta": {
+      "type": "Water",
+      "hp": "190",
+      "artist": "Kouki Saitou"
+    }
+  },
+  {
+    "slug": "bulbasaur-151-166",
+    "name": "Bulbasaur",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "166/165",
+    "rarity": "Illustration Rare",
+    "price": 19.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/166_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/166.png",
+    "meta": {
+      "type": "Grass",
+      "hp": "70",
+      "artist": "Yoriyuki Ikegami"
+    }
+  },
+  {
+    "slug": "charmander-151-168",
+    "name": "Charmander",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "168/165",
+    "rarity": "Illustration Rare",
+    "price": 19.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/168_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/168.png",
+    "meta": {
+      "type": "Fire",
+      "hp": "70",
+      "artist": "miki kudo"
+    }
+  },
+  {
+    "slug": "charmeleon-151-169",
+    "name": "Charmeleon",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "169/165",
+    "rarity": "Illustration Rare",
+    "price": 19.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/169_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/169.png",
+    "meta": {
+      "type": "Fire",
+      "hp": "100",
+      "artist": "miki kudo"
+    }
+  },
+  {
+    "slug": "squirtle-151-170",
+    "name": "Squirtle",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "170/165",
+    "rarity": "Illustration Rare",
+    "price": 19.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/170_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/170.png",
+    "meta": {
+      "type": "Water",
+      "hp": "60",
+      "artist": "Mitsuhiro Arita"
+    }
+  },
+  {
+    "slug": "psyduck-151-175",
+    "name": "Psyduck",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "175/165",
+    "rarity": "Illustration Rare",
+    "price": 19.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/175_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/175.png",
+    "meta": {
+      "type": "Water",
+      "hp": "70",
+      "artist": "Whisker"
+    }
+  },
+  {
+    "slug": "poliwhirl-151-176",
+    "name": "Poliwhirl",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "176/165",
+    "rarity": "Illustration Rare",
+    "price": 19.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/176_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/176.png",
+    "meta": {
+      "type": "Water",
+      "hp": "90",
+      "artist": "Gemi"
+    }
+  },
+  {
+    "slug": "kadabra-151-64",
+    "name": "Kadabra",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "64/165",
+    "rarity": "Uncommon",
+    "price": 1.49,
+    "image": "https://images.pokemontcg.io/sv3pt5/64_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/64.png",
+    "meta": {
+      "type": "Psychic",
+      "hp": "80",
+      "artist": "Mitsuhiro Arita"
+    }
+  },
+  {
+    "slug": "machamp-151-68",
+    "name": "Machamp",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "68/165",
+    "rarity": "Rare",
+    "price": 2.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/68_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/68.png",
+    "meta": {
+      "type": "Fighting",
+      "hp": "180",
+      "artist": "Ryuta Fuse"
+    }
+  },
+  {
+    "slug": "golem-ex-151-189",
+    "name": "Golem ex",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "189/165",
+    "rarity": "Ultra Rare",
+    "price": 14.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/189_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/189.png",
+    "meta": {
+      "type": "Fighting",
+      "hp": "330",
+      "artist": "PLANETA Igarashi"
+    }
+  },
+  {
+    "slug": "slowpoke-151-79",
+    "name": "Slowpoke",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "79/165",
+    "rarity": "Common",
+    "price": 1.49,
+    "image": "https://images.pokemontcg.io/sv3pt5/79_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/79.png",
+    "meta": {
+      "type": "Psychic",
+      "hp": "80",
+      "artist": "OKACHEKE"
+    }
+  },
+  {
+    "slug": "magneton-151-82",
+    "name": "Magneton",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "82/165",
+    "rarity": "Uncommon",
+    "price": 1.49,
+    "image": "https://images.pokemontcg.io/sv3pt5/82_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/82.png",
+    "meta": {
+      "type": "Lightning",
+      "hp": "90",
+      "artist": "Yuka Morii"
+    }
+  },
+  {
+    "slug": "dodrio-151-85",
+    "name": "Dodrio",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "85/165",
+    "rarity": "Rare",
+    "price": 2.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/85_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/85.png",
+    "meta": {
+      "type": "Colorless",
+      "hp": "100",
+      "artist": "Anesaki Dynamic"
+    }
+  },
+  {
+    "slug": "hitmonchan-151-107",
+    "name": "Hitmonchan",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "107/165",
+    "rarity": "Uncommon",
+    "price": 1.49,
+    "image": "https://images.pokemontcg.io/sv3pt5/107_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/107.png",
+    "meta": {
+      "type": "Fighting",
+      "hp": "120",
+      "artist": "DOM"
+    }
+  },
+  {
+    "slug": "ditto-151-132",
+    "name": "Ditto",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "132/165",
+    "rarity": "Rare",
+    "price": 2.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/132_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/132.png",
+    "meta": {
+      "type": "Colorless",
+      "hp": "60",
+      "artist": "KIYOTAKA OSHIYAMA"
+    }
+  },
+  {
+    "slug": "omanyte-151-180",
+    "name": "Omanyte",
+    "game": "pokemon",
+    "gameLabel": "Pokémon TCG",
+    "set": "Scarlet & Violet — 151",
+    "code": "180/165",
+    "rarity": "Illustration Rare",
+    "price": 19.99,
+    "image": "https://images.pokemontcg.io/sv3pt5/180_hires.png",
+    "imageSmall": "https://images.pokemontcg.io/sv3pt5/180.png",
+    "meta": {
+      "type": "Water",
+      "hp": "100",
+      "artist": "Yano Keiji"
+    }
+  },
+  {
+    "slug": "shanks-op01-120",
+    "name": "Shanks",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-01 Romance Dawn",
+    "code": "OP01-120",
+    "rarity": "Secret Rare",
+    "price": 149.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-120.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-120.png?260715",
+    "meta": {
+      "color": "Red",
+      "power": "10000",
+      "category": "CHARACTER"
+    }
+  },
+  {
+    "slug": "yamato-op01-121",
+    "name": "Yamato",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-01 Romance Dawn",
+    "code": "OP01-121",
+    "rarity": "Secret Rare",
+    "price": 149.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-121.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-121.png?260715",
+    "meta": {
+      "color": "Green",
+      "power": "5000",
+      "category": "CHARACTER"
+    }
+  },
+  {
+    "slug": "roronoa-zoro-op01-001",
+    "name": "Roronoa Zoro",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-01 Romance Dawn",
+    "code": "OP01-001",
+    "rarity": "Leader",
+    "price": 12.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-001.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-001.png?260715",
+    "meta": {
+      "color": "Red",
+      "power": "5000",
+      "category": "LEADER"
+    }
+  },
+  {
+    "slug": "trafalgar-law-op01-002",
+    "name": "Trafalgar Law",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-01 Romance Dawn",
+    "code": "OP01-002",
+    "rarity": "Leader",
+    "price": 12.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-002.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-002.png?260715",
+    "meta": {
+      "color": "Red/Green",
+      "power": "5000",
+      "category": "LEADER"
+    }
+  },
+  {
+    "slug": "monkey-d-luffy-op01-003",
+    "name": "Monkey.D.Luffy",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-01 Romance Dawn",
+    "code": "OP01-003",
+    "rarity": "Leader",
+    "price": 12.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-003.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-003.png?260715",
+    "meta": {
+      "color": "Red/Green",
+      "power": "5000",
+      "category": "LEADER"
+    }
+  },
+  {
+    "slug": "kouzuki-oden-op01-031",
+    "name": "Kouzuki Oden",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-01 Romance Dawn",
+    "code": "OP01-031",
+    "rarity": "Leader",
+    "price": 12.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-031.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-031.png?260715",
+    "meta": {
+      "color": "Green",
+      "power": "5000",
+      "category": "LEADER"
+    }
+  },
+  {
+    "slug": "donquixote-doflamingo-op01-060",
+    "name": "Donquixote Doflamingo",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-01 Romance Dawn",
+    "code": "OP01-060",
+    "rarity": "Leader",
+    "price": 12.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-060.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-060.png?260715",
+    "meta": {
+      "color": "Blue",
+      "power": "5000",
+      "category": "LEADER"
+    }
+  },
+  {
+    "slug": "kaido-op01-061",
+    "name": "Kaido",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-01 Romance Dawn",
+    "code": "OP01-061",
+    "rarity": "Leader",
+    "price": 12.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-061.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-061.png?260715",
+    "meta": {
+      "color": "Blue/Purple",
+      "power": "5000",
+      "category": "LEADER"
+    }
+  },
+  {
+    "slug": "crocodile-op01-062",
+    "name": "Crocodile",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-01 Romance Dawn",
+    "code": "OP01-062",
+    "rarity": "Leader",
+    "price": 12.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-062.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-062.png?260715",
+    "meta": {
+      "color": "Blue/Purple",
+      "power": "5000",
+      "category": "LEADER"
+    }
+  },
+  {
+    "slug": "king-op01-091",
+    "name": "King",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-01 Romance Dawn",
+    "code": "OP01-091",
+    "rarity": "Leader",
+    "price": 12.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-091.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-091.png?260715",
+    "meta": {
+      "color": "Purple",
+      "power": "5000",
+      "category": "LEADER"
+    }
+  },
+  {
+    "slug": "monkey-d-luffy-op01-024",
+    "name": "Monkey.D.Luffy",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-01 Romance Dawn",
+    "code": "OP01-024",
+    "rarity": "Super Rare",
+    "price": 29.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-024.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-024.png?260715",
+    "meta": {
+      "color": "Red",
+      "power": "3000",
+      "category": "CHARACTER"
+    }
+  },
+  {
+    "slug": "roronoa-zoro-op01-025",
+    "name": "Roronoa Zoro",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-01 Romance Dawn",
+    "code": "OP01-025",
+    "rarity": "Super Rare",
+    "price": 29.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-025.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-025.png?260715",
+    "meta": {
+      "color": "Red",
+      "power": "5000",
+      "category": "CHARACTER"
+    }
+  },
+  {
+    "slug": "kin-emon-op01-040",
+    "name": "Kin'emon",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-01 Romance Dawn",
+    "code": "OP01-040",
+    "rarity": "Super Rare",
+    "price": 29.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-040.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-040.png?260715",
+    "meta": {
+      "color": "Green",
+      "power": "6000",
+      "category": "CHARACTER"
+    }
+  },
+  {
+    "slug": "trafalgar-law-op01-047",
+    "name": "Trafalgar Law",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-01 Romance Dawn",
+    "code": "OP01-047",
+    "rarity": "Super Rare",
+    "price": 29.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-047.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-047.png?260715",
+    "meta": {
+      "color": "Green",
+      "power": "6000",
+      "category": "CHARACTER"
+    }
+  },
+  {
+    "slug": "eustass-captain-kid-op01-051",
+    "name": "Eustass\"Captain\"Kid",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-01 Romance Dawn",
+    "code": "OP01-051",
+    "rarity": "Super Rare",
+    "price": 29.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-051.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-051.png?260715",
+    "meta": {
+      "color": "Green",
+      "power": "8000",
+      "category": "CHARACTER"
+    }
+  },
+  {
+    "slug": "crocodile-op01-067",
+    "name": "Crocodile",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-01 Romance Dawn",
+    "code": "OP01-067",
+    "rarity": "Super Rare",
+    "price": 29.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-067.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP01-067.png?260715",
+    "meta": {
+      "color": "Blue",
+      "power": "7000",
+      "category": "CHARACTER"
+    }
+  },
+  {
+    "slug": "uta-op02-120",
+    "name": "Uta",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-02 Paramount War",
+    "code": "OP02-120",
+    "rarity": "Secret Rare",
+    "price": 149.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-120.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-120.png?260715",
+    "meta": {
+      "color": "Purple",
+      "power": "8000",
+      "category": "CHARACTER"
+    }
+  },
+  {
+    "slug": "kuzan-op02-121",
+    "name": "Kuzan",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-02 Paramount War",
+    "code": "OP02-121",
+    "rarity": "Secret Rare",
+    "price": 149.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-121.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-121.png?260715",
+    "meta": {
+      "color": "Black",
+      "power": "10000",
+      "category": "CHARACTER"
+    }
+  },
+  {
+    "slug": "edward-newgate-op02-001",
+    "name": "Edward.Newgate",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-02 Paramount War",
+    "code": "OP02-001",
+    "rarity": "Leader",
+    "price": 12.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-001.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-001.png?260715",
+    "meta": {
+      "color": "Red",
+      "power": "6000",
+      "category": "LEADER"
+    }
+  },
+  {
+    "slug": "monkey-d-garp-op02-002",
+    "name": "Monkey.D.Garp",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-02 Paramount War",
+    "code": "OP02-002",
+    "rarity": "Leader",
+    "price": 12.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-002.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-002.png?260715",
+    "meta": {
+      "color": "Red/Black",
+      "power": "5000",
+      "category": "LEADER"
+    }
+  },
+  {
+    "slug": "kin-emon-op02-025",
+    "name": "Kin'emon",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-02 Paramount War",
+    "code": "OP02-025",
+    "rarity": "Leader",
+    "price": 12.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-025.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-025.png?260715",
+    "meta": {
+      "color": "Green",
+      "power": "5000",
+      "category": "LEADER"
+    }
+  },
+  {
+    "slug": "sanji-op02-026",
+    "name": "Sanji",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-02 Paramount War",
+    "code": "OP02-026",
+    "rarity": "Leader",
+    "price": 12.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-026.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-026.png?260715",
+    "meta": {
+      "color": "Green/Blue",
+      "power": "5000",
+      "category": "LEADER"
+    }
+  },
+  {
+    "slug": "emporio-ivankov-op02-049",
+    "name": "Emporio.Ivankov",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-02 Paramount War",
+    "code": "OP02-049",
+    "rarity": "Leader",
+    "price": 12.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-049.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-049.png?260715",
+    "meta": {
+      "color": "Blue",
+      "power": "5000",
+      "category": "LEADER"
+    }
+  },
+  {
+    "slug": "magellan-op02-071",
+    "name": "Magellan",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-02 Paramount War",
+    "code": "OP02-071",
+    "rarity": "Leader",
+    "price": 12.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-071.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-071.png?260715",
+    "meta": {
+      "color": "Purple",
+      "power": "5000",
+      "category": "LEADER"
+    }
+  },
+  {
+    "slug": "zephyr-op02-072",
+    "name": "Zephyr",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-02 Paramount War",
+    "code": "OP02-072",
+    "rarity": "Leader",
+    "price": 12.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-072.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-072.png?260715",
+    "meta": {
+      "color": "Purple/Black",
+      "power": "5000",
+      "category": "LEADER"
+    }
+  },
+  {
+    "slug": "smoker-op02-093",
+    "name": "Smoker",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-02 Paramount War",
+    "code": "OP02-093",
+    "rarity": "Leader",
+    "price": 12.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-093.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-093.png?260715",
+    "meta": {
+      "color": "Black",
+      "power": "5000",
+      "category": "LEADER"
+    }
+  },
+  {
+    "slug": "edward-newgate-op02-004",
+    "name": "Edward.Newgate",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-02 Paramount War",
+    "code": "OP02-004",
+    "rarity": "Super Rare",
+    "price": 29.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-004.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-004.png?260715",
+    "meta": {
+      "color": "Red",
+      "power": "10000",
+      "category": "CHARACTER"
+    }
+  },
+  {
+    "slug": "portgas-d-ace-op02-013",
+    "name": "Portgas.D.Ace",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-02 Paramount War",
+    "code": "OP02-013",
+    "rarity": "Super Rare",
+    "price": 29.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-013.png?260715",
+    "meta": {
+      "color": "Red",
+      "power": "7000",
+      "category": "CHARACTER"
+    }
+  },
+  {
+    "slug": "kouzuki-oden-op02-030",
+    "name": "Kouzuki Oden",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-02 Paramount War",
+    "code": "OP02-030",
+    "rarity": "Super Rare",
+    "price": 29.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-030.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-030.png?260715",
+    "meta": {
+      "color": "Green",
+      "power": "8000",
+      "category": "CHARACTER"
+    }
+  },
+  {
+    "slug": "nami-op02-036",
+    "name": "Nami",
+    "game": "onepiece",
+    "gameLabel": "One Piece Card Game",
+    "set": "OP-02 Paramount War",
+    "code": "OP02-036",
+    "rarity": "Super Rare",
+    "price": 29.99,
+    "image": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-036.png?260715",
+    "imageSmall": "https://en.onepiece-cardgame.com/images/cardlist/card/OP02-036.png?260715",
+    "meta": {
+      "color": "Green",
+      "power": "5000",
+      "category": "CHARACTER"
+    }
+  }
+]
