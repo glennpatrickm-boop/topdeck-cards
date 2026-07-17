@@ -1,26 +1,103 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0c12;
+  --surface: #12151f;
+  --surface-2: #1a1e2c;
+  --border: #242a3d;
+  --foreground: #e8eaf1;
+  --muted: #9aa1b5;
+  --accent: #8b5cf6;
+  --accent-2: #22d3ee;
+  --foil: linear-gradient(120deg, #8b5cf6 0%, #22d3ee 45%, #ec4899 100%);
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-borderc: var(--border);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+}
+
+/* Foil gradient text (brand + headings) */
+.foil-text {
+  background: var(--foil);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Foil gradient border via padding-box trick */
+.foil-ring {
+  border: 1px solid transparent;
+  background:
+    linear-gradient(var(--surface), var(--surface)) padding-box,
+    var(--foil) border-box;
+}
+
+/* Subtle card hover lift used across product grids */
+.tile-lift {
+  transition:
+    transform 200ms ease,
+    box-shadow 200ms ease,
+    border-color 200ms ease;
+}
+.tile-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgb(0 0 0 / 0.45);
+  border-color: var(--accent);
+}
+
+/* 3D holo tilt (product page) — transform values set inline via JS vars */
+.holo-tilt {
+  transform-style: preserve-3d;
+  transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  transition: transform 120ms ease-out;
+  will-change: transform;
+}
+.holo-shine {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(
+    circle at var(--mx, 50%) var(--my, 50%),
+    rgb(255 255 255 / 0.22),
+    transparent 55%
+  );
+  opacity: var(--shine, 0);
+  transition: opacity 200ms ease;
+  mix-blend-mode: overlay;
+}
+
+/* Accessible focus states on a dark theme */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+::selection {
+  background: #8b5cf6;
+  color: #fff;
 }
