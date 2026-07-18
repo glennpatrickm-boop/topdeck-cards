@@ -1,0 +1,122 @@
+{% comment %}
+  Haisuki Collectibles — featured collection grid.
+  Renders up to `limit` products from a chosen collection with image,
+  rarity tag, title and price, plus a "view all" link.
+{% endcomment %}
+
+{% assign col = collections[section.settings.collection] %}
+
+<section class="haisuki-featured" aria-label="{{ section.settings.heading | escape }}">
+  <div class="haisuki-featured__head">
+    <h2 class="haisuki-featured__heading">{{ section.settings.heading }}</h2>
+    {% if col != blank %}
+      <a class="haisuki-featured__all" href="{{ col.url }}">View all →</a>
+    {% endif %}
+  </div>
+
+  {% if col == blank or col.products.size == 0 %}
+    <p class="haisuki-featured__empty">Choose a collection with products in the theme editor.</p>
+  {% else %}
+    <ul class="haisuki-featured__grid" role="list">
+      {% for product in col.products limit: section.settings.limit %}
+        <li>
+          <a class="haisuki-featured__card" href="{{ product.url }}">
+            <div class="haisuki-featured__media">
+              {% if product.featured_image %}
+                {{ product.featured_image | image_url: width: 480 | image_tag: loading: 'lazy', alt: product.featured_image.alt | default: product.title }}
+              {% endif %}
+            </div>
+            {% comment %} Tags are alphabetized; pick the rarity by excluding game + set tags. {% endcomment %}
+            {% assign rarity = '' %}
+            {% for t in product.tags %}
+              {% unless t == 'Pokemon' or t == 'One Piece' or t contains '151' or t contains 'OP-0' %}
+                {% assign rarity = t %}
+              {% endunless %}
+            {% endfor %}
+            {% if rarity != blank %}
+              <span class="haisuki-featured__tag">{{ rarity }}</span>
+            {% endif %}
+            <h3 class="haisuki-featured__title">{{ product.title }}</h3>
+            <p class="haisuki-featured__price">{{ product.price | money }}</p>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</section>
+
+{% stylesheet %}
+.haisuki-featured { max-width: 72rem; margin: 0 auto; padding: 3.5rem 1.25rem; }
+.haisuki-featured__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.haisuki-featured__heading { margin: 0; font-size: 1.6rem; font-weight: 700; }
+.haisuki-featured__all { font-size: 0.9rem; text-decoration: none; color: #7c3aed; }
+.haisuki-featured__all:hover { text-decoration: underline; }
+.haisuki-featured__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 700px) {
+  .haisuki-featured__grid { grid-template-columns: repeat(4, 1fr); }
+}
+.haisuki-featured__card {
+  display: block;
+  padding: 0.9rem;
+  border: 1px solid #e5e0ff;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+.haisuki-featured__card:hover {
+  transform: translateY(-4px);
+  border-color: #8b5cf6;
+  box-shadow: 0 10px 28px rgb(17 12 43 / 0.12);
+}
+.haisuki-featured__media { aspect-ratio: 5 / 7; }
+.haisuki-featured__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.haisuki-featured__tag {
+  display: inline-block;
+  margin-top: 0.7rem;
+  padding: 0.15rem 0.6rem;
+  border: 1px solid #c4b5fd;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: #6d28d9;
+  background: #f5f3ff;
+}
+.haisuki-featured__title {
+  margin: 0.45rem 0 0;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.haisuki-featured__price { margin: 0.3rem 0 0; font-weight: 700; color: #0891b2; }
+.haisuki-featured__empty { color: #6b7280; }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Haisuki Featured",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Featured cards" },
+    { "type": "collection", "id": "collection", "label": "Collection" },
+    { "type": "range", "id": "limit", "label": "Products shown", "min": 4, "max": 12, "step": 4, "default": 8 }
+  ],
+  "presets": [{ "name": "Haisuki Featured" }]
+}
+{% endschema %}

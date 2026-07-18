@@ -1,0 +1,108 @@
+{% comment %}
+  Haisuki Collectibles — custom hero section.
+  Dark holo-gradient banner with eyebrow, headline, subtext and two CTAs.
+{% endcomment %}
+
+<section class="haisuki-hero" aria-label="{{ section.settings.heading | strip_html | escape }}">
+  <div class="haisuki-hero__inner">
+    <p class="haisuki-hero__eyebrow">{{ section.settings.eyebrow }}</p>
+    <h1 class="haisuki-hero__heading">
+      {{ section.settings.heading }}
+      <span class="haisuki-hero__foil">{{ section.settings.heading_accent }}</span>
+    </h1>
+    <p class="haisuki-hero__sub">{{ section.settings.subtext }}</p>
+    <div class="haisuki-hero__ctas">
+      {% if section.settings.cta_primary_label != blank %}
+        <a class="haisuki-hero__btn haisuki-hero__btn--primary" href="{{ section.settings.cta_primary_link }}">
+          {{ section.settings.cta_primary_label }}
+        </a>
+      {% endif %}
+      {% if section.settings.cta_secondary_label != blank %}
+        <a class="haisuki-hero__btn haisuki-hero__btn--ghost" href="{{ section.settings.cta_secondary_link }}">
+          {{ section.settings.cta_secondary_label }}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% stylesheet %}
+.haisuki-hero {
+  background:
+    radial-gradient(60% 80% at 50% 0%, rgb(139 92 246 / 0.25), transparent 70%),
+    #0a0c12;
+  color: #e8eaf1;
+  padding: 5.5rem 1.25rem;
+  text-align: center;
+}
+.haisuki-hero__inner { max-width: 46rem; margin: 0 auto; }
+.haisuki-hero__eyebrow {
+  margin: 0 0 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #22d3ee;
+}
+.haisuki-hero__heading {
+  margin: 0;
+  font-size: clamp(2.2rem, 6vw, 3.6rem);
+  font-weight: 800;
+  line-height: 1.1;
+  color: #fff;
+}
+.haisuki-hero__foil {
+  display: block;
+  background: linear-gradient(120deg, #8b5cf6 0%, #22d3ee 45%, #ec4899 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.haisuki-hero__sub {
+  margin: 1.1rem auto 0;
+  max-width: 30rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #9aa1b5;
+}
+.haisuki-hero__ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-top: 1.75rem;
+}
+.haisuki-hero__btn {
+  display: inline-block;
+  padding: 0.8rem 1.9rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 150ms ease, border-color 150ms ease;
+}
+.haisuki-hero__btn--primary { background: #8b5cf6; color: #fff; }
+.haisuki-hero__btn--primary:hover { opacity: 0.9; }
+.haisuki-hero__btn--ghost {
+  color: #e8eaf1;
+  border: 1px solid #3b4260;
+}
+.haisuki-hero__btn--ghost:hover { border-color: #22d3ee; color: #22d3ee; }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Haisuki Hero",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Pokémon 151 · One Piece OP-01 & OP-02" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Chase cards," },
+    { "type": "text", "id": "heading_accent", "label": "Heading accent (foil line)", "default": "without the chase." },
+    { "type": "textarea", "id": "subtext", "label": "Subtext", "default": "Hand-picked singles from the most collected sets in the hobby — graded-quality condition, shipped fast, priced honestly." },
+    { "type": "text", "id": "cta_primary_label", "label": "Primary CTA label", "default": "Shop Pokémon" },
+    { "type": "url", "id": "cta_primary_link", "label": "Primary CTA link" },
+    { "type": "text", "id": "cta_secondary_label", "label": "Secondary CTA label", "default": "Shop One Piece" },
+    { "type": "url", "id": "cta_secondary_link", "label": "Secondary CTA link" }
+  ],
+  "presets": [{ "name": "Haisuki Hero" }]
+}
+{% endschema %}
