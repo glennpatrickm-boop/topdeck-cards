@@ -54,9 +54,9 @@ story += h("PROFESSIONAL SUMMARY")
 story.append(Paragraph(
     "Full-Stack Web Developer with 3+ years of experience delivering scalable, production-ready web "
     "applications and APIs. I specialize in React front-ends, Java/Spring Boot back-ends, and CI/CD "
-    "automation — handling the full development lifecycle from architecture to deployment. At Accenture "
-    "I co-develop an enterprise ticketing platform and build Oracle APEX applications with integrated AI "
-    "assistants; previously I built and maintained mission-critical Java systems for a global semiconductor "
+    "automation — handling the full development lifecycle from architecture to deployment. I currently "
+    "co-develop an enterprise ticketing platform and build Oracle APEX applications with integrated AI "
+    "assistants, and previously built and maintained mission-critical Java systems for a global semiconductor "
     "leader. Available for freelance and contract projects worldwide, with a strong focus on clean code, "
     "on-time delivery, and transparent communication.", s_body))
 
