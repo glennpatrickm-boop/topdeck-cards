@@ -98,14 +98,6 @@ story.append(job(
         "into the APEX front end, re-platforming the chatbot backend onto a modern LLM API",
     ]))
 story.append(job(
-    "Quality & Testing Engineer", "Texas Instruments Philippines, Inc.",
-    "04/2024 – 02/2025 | Full-Time",
-    [
-        "Applied engineering discipline to semiconductor device testing — validated functionality, performance, "
-        "and reliability against production quality standards",
-        "Bridged engineering and production planning teams, gathering requirements and ensuring clean technical handoffs",
-    ]))
-story.append(job(
     "Application Developer", "Texas Instruments Philippines, Inc.",
     "09/2022 – 04/2024 | Full-Time",
     [
@@ -116,6 +108,14 @@ story.append(job(
         "outdated JDK and JMS to the latest stack with no production disruption",
         "Improved application features, resolved bugs, and optimized performance, reliability, and scalability across the full stack",
         "Executed end-to-end migration of Java applications and Oracle databases to upgraded systems, ensuring smooth transitions",
+    ]))
+story.append(job(
+    "Quality & Testing Engineer", "Texas Instruments Philippines, Inc.",
+    "04/2024 – 02/2025 | Full-Time",
+    [
+        "Applied engineering discipline to semiconductor device testing — validated functionality, performance, "
+        "and reliability against production quality standards",
+        "Bridged engineering and production planning teams, gathering requirements and ensuring clean technical handoffs",
     ]))
 
 story += h("INTERNSHIP EXPERIENCE")
